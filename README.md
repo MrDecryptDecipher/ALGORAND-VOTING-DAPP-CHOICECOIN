@@ -20,6 +20,8 @@
 ```
 * install app dependencies
 ```
+$ npm init
+```
  $ npm install
 ```
 * inside `index.js`, update the following 
@@ -28,7 +30,7 @@ const token = {
   "X-API-Key": "" //your API key gotten from purestake API, 
 }
 
-const mnemonic = ""; //the mmemonic 25 characters seperated by a whitespace should be imported here
+const mnemonic = ""; //the mmemonic 25 characters seperated by a whitespace should be imported here, basically put the passphrase with space between two phrases and paste them between the double quotes
 
 const voting_address = '' //input a voting address wallet you can send choice to, make sure choice is opt-in to receive votes
 
@@ -41,9 +43,6 @@ This can also been done with
 ```
 $ npm start
 ```
-
-## Live Demo 
-![visuals](https://github.com/Samuellyworld/Choice-Coin-JS-Tutorial/blob/main/demo_gif/tutorial.gif)
 
 
 ## Tutorial links
